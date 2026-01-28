@@ -12,11 +12,9 @@ dist/
 *.egg
 .eggs/
 
-# Bag files (large data files)
-rosbag/
-*.db3
-*.bag
-*.yaml
+# Bag files (large data files - managed by Git LFS)
+# rosbag/ - now tracked by Git LFS
+# *.db3 - now tracked by Git LFS
 
 # IDE
 .vscode/
