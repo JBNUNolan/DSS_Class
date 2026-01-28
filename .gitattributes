@@ -1,0 +1,2 @@
+*.db3 filter=lfs diff=lfs merge=lfs -text
+rosbag/** filter=lfs diff=lfs merge=lfs -text
