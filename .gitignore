@@ -1,0 +1,57 @@
+# Build directories
+build/
+install/
+log/
+devel/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.egg-info/
+dist/
+*.egg
+.eggs/
+
+# Bag files (large data files)
+rosbag/
+*.db3
+*.bag
+*.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.make
+
+# VS Code
+.vscode/
+settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
